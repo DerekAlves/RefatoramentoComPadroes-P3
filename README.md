@@ -1,5 +1,10 @@
 # RefatoramentoComPadroes-P3
 
+Link para projeto original: https://github.com/leticiapenha/Projeto-P1
+
+Também pode encontrar o projeto original sobre o nome: SMELL
+o projeto limpo é o CLEAR.
+
 ## Ao todo, fiz quatro mudanças:
 ### Remoção de Smell com uso do Inline Method - alguns conjuntos de if e else que foram substituidos por um ternário, aplicando assim o Inline Method.
 No arquivo Veiculos(SMELL) temos os métodos Cima(), Baixo(), Esquerda() e Direita(), cada um desses métodos tem um if e um else, que foram substituidos por um ternário nos arquivos do Command(CLEAR), aplicando assim o Inline Method.
