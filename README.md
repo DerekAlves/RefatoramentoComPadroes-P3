@@ -15,4 +15,4 @@ Na Construtor Mundo() (SMELL) temos um for para desenhar o mapa, e para cada val
 ### Uso do Command, para movimentar os diversos tipos de veículos que estão dispostos no mapa.
 Na Classe Veiculos (SMELL), temos vários métodos que representam o movimento dos veículos, oportunidade perfeita para usar o Command e remover os métodos desnecessários - implementando assim no (CLEAR) as classes para movimentar o veiculo, reduzindo também condicionais no método Move() presente na classe Veiculos(SMELL) para atribuir o movimento correto ao veiculo - o Command(CLEAR) está no pacote Command.
 
-### Notei que as vezes, quando executo o projeto original, o processo é interrompido por execption - portanto o projeto refatorado pode encerrar por conta de exception.
+### Notei que as vezes, quando executo o projeto original que o processo é interrompido por exception - portanto o projeto refatorado pode encerrar por conta de exceptions, visto que a proposta do refatoramento é manter o projeto funcionando igual ao original - só que de forma mais 'elegante'.
